@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.link{
+    margin-right: 124px;
+    color: white;
+    font-size: 14px;
+}
+
+
+.background{
+    filter: brightness(83%);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+::-webkit-scrollbar { 
+  width: 0px!important;
+} 
+
+.space{
+    text-align: center;
+    font-size: 40px !important;
+}
+
+#text2{
+    overflow: hidden;
+    font-family: "Open Sans";
+    text-align: left;
+    font-size: 20px;
+    color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    background-color: white;    
+}
+.center{
+    text-align: center;
+    justify-content:center;
+}
+.text3{
+    text-align: center;
+    overflow: hidden;
+    font-family: "Open Sans";
+    font-size: 20px;
+    color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    background-color: white;    
+}
+
+.imgs{
+    margin-bottom: 15px;
+    margin-top: 8px;
+    max-width: 100px;
+    display: inline;
+}
+
+.imgs2{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    max-width: 85px;
+    display: inline;
+}
+
+.homesec{
+    transition-delay: 15s;
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 25%;
+}
+
+.main2{
+    color: white;
+    font-size: 70px;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-top: 3%;
+}
+
+.support{
+    font-family: "Open Sans";
+    font-size: 35px;
+    text-align: center;
+    color: white;
+
+}
+
+#text {
+    font-family: "Open Sans";
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 2%;
+    background-color: transparent;
+    color: white;
+    font-size: 75px;
+}
+
+.flip {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+    width: 133%;
+  height: auto;
+}
+
+.overlay {
+    margin-left: 5.5%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(100, 170, 180);
+  opacity: 1.5;
+  overflow: hidden;
+  width: 133%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.flip:hover .overlay {
+  height: 100%;
+  overflow: hidden;
+}
+
+.overlaytext {
+  color: white;
+  font-size: 120%;
+  position: absolute;
+  overflow: hidden;
+  width: 60%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.project{
+    overflow: visible !important;
+    display: inline;
+    
+}
+
+.center{
+    margin-top: 4%;
+    background-color: white;
+    color: black;
+    font-family: "Open Sans";
+    font-size: 30px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.horznav{
+    width: 30%;
+    background-color: white;
+    text-align: center;
+    margin-left: 7%;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 7%;
+}
+
+#text{
+    margin-left: 20px;
+}
+
+.navtext{
+    margin-top: 8px;
+    margin-bottom: 15px;
+    font-family: "Open Sans";
+    font-size: 20px;
+}
