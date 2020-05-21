@@ -7,9 +7,9 @@
    <body>
       <h1><strong>Family Food Planner</strong></h1>
       <p>This website will help plan you or your family's food plan based on your food prefrences.</p><p>For how many people do you want to plan your meals?</p>
-      <input type="range" name="numPeople" value="4" min="1" max="8" step="1">
+      <input type="range" name="numPeople" value="4" min="1" max="8" step="1" onchange="updateTextInput1(this.value);">
       <p>How often do you eat out in a week?</p>
-      <input type="range" name="numEatOut" value="2" min="0" max="21" step="1">
+      <input type="range" name="numEatOut" value="2" min="0" max="21" step="1" onchange="updateTextInput2(this.value);">
       <p>What dietary restrictions do you or any other family members have?</p>
       <input type="text" name="dietaryRestrictions">
       <br>
