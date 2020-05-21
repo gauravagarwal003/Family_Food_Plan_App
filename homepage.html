@@ -5,48 +5,10 @@
       <link rel="icon" type="image/jpg" href="Images/logo.png">
    </head>
    <body>
-      <header class="container">
-         <div class="row">
-            <div class="pull-right">
-               <ul class="nav nav-pills" style="margin-top: 17px;">
-                  <li class="active">
-                     <a class="link" href="Agarwal_Home.html">Home</a>
-                  </li>
-                  <li>
-                     <a class="link" href="Agarwal_AboutMe.html">About Me</a>
-                  </li>
-                  <li>
-                     <a class="link" href="Agarwal_Resume.html">Resume</a>
-                  </li>
-                  <li>
-                     <a class="link" href="Agarwal_Projects.html">Projects</a>
-                  </li>
-                  <li>
-                     <a class="link" href="Agarwal_ContactMe.html">Contact Me</a>
-                  </li>
-               </ul>
-            </div>
-         </div>
-      </header>
-      
       <h1><strong>Family Food Planner</strong></h1>
-<p>This website will help plan you or your family's food plan based on your food prefrences.</p><p>For how many people do you want to plan your meals?</p>
-<input type="range" name="rangeInput" min="1" max="8" onchange="updateTextInput(this.value);">
-<input type="text" value="">
-<br>
-<p>How often do you eat out?</p>
-<input type="range" name="rangeInput" min="1" max="8" onchange="updateTextInput(this.value);">
-<input type="text" value="">
-
-            
-      <div id="text"></div>
-      <script src="type.js"></script>
-      <div class="bottomdiv hide" id="footer">
-         <div class="row center">
-            
-            
-         </div>
-      </div>
-         <script src="stop.js"></script>
+      <p>This website will help plan you or your family's food plan based on your food prefrences.</p><p>For how many people do you want to plan your meals?</p>
+      <input type="number" name="myInput" value="4" min="1" max="8" step="1">
+      <p>How often do you eat out in a week?</p>
+      <input type="number" name="myInput" value="2" min="0" max="21" step="1">
    </body>
 </html>
